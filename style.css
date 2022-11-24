@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: white;
+  color: black;
+  overflow: hidden;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  /* border: solid red; */
+}
+.logo {
+  display: flex;
+  /* position: absolute; */
+}
+.logo img {
+  width: 50px;
+  height: 50px;
+  /* border: solid red; */
+  position: absolute;
+  top: 4px;
+}
+.logo p {
+  margin-left: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-weight: 500;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  column-gap: 30px;
+  justify-content: space-evenly;
+  /* border: solid red; */
+}
+nav ul li:last-child a {
+  color: white;
+  background-color: black;
+  padding: 10px 15px;
+  border-radius: 7px;
+  font-weight: 400;
+}
+main {
+  /* border: solid red; */
+  padding: 0px 250px;
+}
+.top {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+  /* border: solid blue; */
+  height: 340px;
+  margin: 30px 0 0 0;
+}
+.top img {
+  /* border: solid red; */
+  width: 600px;
+  height: 100%;
+  border-radius: 7px;
+}
+.intro p {
+  color: rgb(33, 32, 32);
+  margin: auto;
+  font-size: 20px;
+}
+.intro h1 {
+  font-size: 60px;
+  font-weight: 500;
+}
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 60px;
+  /* border: solid green; */
+  margin-top: 100px;
+  /* margin: 50px 20px 0 20px; */
+}
+.about {
+  width: 40%;
+  /* border: solid red; */
+}
+.bottom h2 {
+  /* color: red;  */
+  font-size: 25px;
+  font-weight: 450;
+  padding-bottom: 10px;
+}
+.bottom p {
+  font-size: 18px;
+}
+.skills {
+  display: flex;
+}
+table {
+  margin: auto;
+  border-spacing: 8px;
+  height: 100px;
+}
+td {
+  border: 0.5px solid grey;
+  border-radius: 5px;
+  padding: 5px 20px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
